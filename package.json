@@ -1,23 +1,5 @@
 {
-  "name": "forbidsmoments",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/helgituan/ForbidsMoments.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/helgituan/ForbidsMoments/issues"
-  },
-  "homepage": "https://github.com/helgituan/ForbidsMoments#readme",
-  "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-plugin-import": "^2.27.5"
+  "dependencies": {
+    "eslint-no-moment": "git://github.com/helgituan/eslint-no-moment.git#v1.0.0"
   }
 }
