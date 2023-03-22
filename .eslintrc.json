@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "plugin:import/errors"
+    ],
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true,
+                "optionalDependencies": false,
+                "peerDependencies": false,
+                "packageDir": "./",
+                "dependencies": [
+                    {
+                        "name": "moment",
+                        "version": "^2.0.0"
+                    }
+                ]
+            }
+        ],
+        "import/no-mutable-exports": "error",
+        "import/no-commonjs": "error",
+        "import/no-nodejs-modules": "error",
+        "import/no-unresolved": "off"
+    }
+}
