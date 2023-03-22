@@ -1,5 +1,25 @@
 {
-  "dependencies": {
-    "eslint-no-moment": "git://github.com/helgituan/eslint-no-moment.git#v1.0.0"
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "My package",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "eslintConfig": {
+    "rules": {
+      "no-restricted-imports": [
+        "error",
+        {
+          "patterns": [
+            "moment"
+          ]
+        }
+      ]
+    }
   }
 }
