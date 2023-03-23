@@ -1,5 +1,5 @@
 {
-  "name": "my-package",
+  "name": "@helgituan/eslint-rule-peruepli-nomoment",
   "version": "1.0.0",
   "description": "My package",
   "main": "index.js",
@@ -7,19 +7,6 @@
     "lint": "eslint"
   },
   "devDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-plugin-import": "^2.25.3"
-  },
-  "eslintConfig": {
-    "rules": {
-      "no-restricted-imports": [
-        "error",
-        {
-          "patterns": [
-            "moment"
-          ]
-        }
-      ]
-    }
+    "eslint": "^8.3.0"
   }
 }
