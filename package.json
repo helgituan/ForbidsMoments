@@ -1,6 +1,6 @@
 {
-  "name": "@helgituan/eslint-rule-peruepli-nomoment",
-  "version": "1.0.0",
+  "name": "@helgituan/eslint-plugin-peruepli-nomoment-eslint-rule",
+  "version": "1.0.1",
   "description": "My package",
   "main": "index.js",
   "scripts": {
